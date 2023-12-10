@@ -32,6 +32,6 @@ function showSlides(n) {
   dots.forEach((e) => {
     e.className = e.className.replace('active', '');
   });
-  slides[slideIndex - 1].style.display = 'block';
+  slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].classList.add('active');
 }
